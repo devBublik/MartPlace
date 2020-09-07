@@ -1,0 +1,53 @@
+@import '_vars';
+@import '_global';
+
+
+.header__wrapper{
+	background-color: #eef1f3;
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+	
+}
+.become_seller{
+	font-size: 14px;
+	background-color: $blue;
+	padding: 13px 20px 10px;
+	border-radius: 40%;
+	a{
+		color: #fff;
+	}
+}
+.profile{
+	padding-left: 22px;
+}
+.profile__name{
+	color: $darkgrey;
+	line-height: 22px;
+	span{
+		color:  #0674ec;
+	}
+}
+.menu{
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	line-height: 43px;
+	text-transform: uppercase;
+	a{
+	font-weight: 600;
+	}
+}
+.menu li{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.menu li+li{
+	padding-left: 30px;
+}
+
+
