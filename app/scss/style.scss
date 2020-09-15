@@ -154,9 +154,7 @@
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	}
-	form{
-	
-	}
+
 	&-btn{
 	max-width: 220px;
 	background-color:  #284bce;
@@ -230,18 +228,34 @@ align-items: center;
 	box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
 	border-radius: 4px;
 	margin-bottom: 50px;
-
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.slider__arrows{
+	background-color: #7347c1;
+	border-radius: 22px/20px;
+	width: 110px;
+	height: 35px;
+	margin-right: 35px;
+	position: relative;
 }
 .featured__products-title{
-text-align: left;
+
 font-size: 30px;
 padding: 40px 30px;
-margin-top: 120px;
+
+}
+.featured__products-inner{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.item__image{
+height: 100%;
 }
 .products__item{
-	display: flex;
+	display: flex!important;
 	justify-content: center;
-	
 	&-description{
 		background-color: #fff;
 		padding: 50px  50px 20px 50px;
@@ -250,6 +264,7 @@ margin-top: 120px;
 		font-size: 24px;
 		color:  #000;
 		margin-bottom: 14px;
+		font-weight: bold;
 	}
 	&-text{
 		padding-bottom: 40px;
@@ -261,14 +276,28 @@ margin-top: 120px;
 	& .wp{
 		color: #7347c1;
 		padding-left: 10px;
+		::before{
+			content:'';
+			background-image: url(../images/icons/WP.png);
+
+		}
 	}
+}
+.wp::before{
+	content:'';
+	background-image: url(../images/icons/WP.png);	
+	width: 20px;
+	height: 20px;
 }
 .products__item-info{
 	padding-bottom: 40px;
+	display: flex;
+	align-items: center;
 }
 .products__sorts{
 	padding-bottom: 40px;
 	border-bottom: 1px solid  #f1f3f6;
+	margin-bottom: 25px;
 	 a{
 		 display: inline-block;
 		 margin-right: 5px;
@@ -277,6 +306,43 @@ margin-top: 120px;
 		border-radius: 20px;
 	 }
 
-} 
+}
+// .firm__logo, .firm__name-logo{
+// 	display: inline-block;
 
-  
+.firm__logo{
+	width: 30px;
+	height: 30px;
+}
+.firm__name-logo{
+	width: 15px;
+	height: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer__card-product{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}  
+.range__products{
+padding: 7px 20px;
+background-color: #0674ec;
+border-radius: 22px/20px;
+color: #fff;
+}
+.slick-arrow{
+	background-color:transparent;
+	border: none;
+	position: absolute;
+	outline: none;
+	cursor: pointer;
+}
+.slick-arrow.slick-prev{
+	top: -113px;
+    right: 101px;
+}
+.slick-arrow.slick-next{
+top: -114px;
+right: 57px;
+}
