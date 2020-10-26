@@ -1,303 +1,939 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link
-			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap"
-			rel="stylesheet">
-		<link rel="stylesheet" href="css/libs.min.css">
-		<link rel="stylesheet" href="css/style.min.css">
-		<title>Document</title>
-	</head>
-	<body>
-		<header class="header">
-			<div class="header__wrapper">
-				<div class="container">
-					<div class="header__inner">
-						<div class="header__logo">
-							<a href="#">
-								<img src="images/logo.png" alt="Логотип">
-							</a>
-						</div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>MartPlace</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <img class="header__logo-img" src="images/logo.png" alt="">
+          </div>
+          <div class="header__user-profile">
+            <a class="become-btn" href="#">Become a Seller</a>
+            <div class="user__account">
+              <div class="user__account-img" style="background-image:
+                url('images/icons/profile__photo.jpg');"></div>
+              <div class="user__account-name">Taofiq Hakim <span
+                  class="user__account-amount">$20.45</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="menu">
+      <div class="container">
+        <div class="menu__inner">
+          <ul class="menu__list">
+            <li><a class="menu__list-item" href="#">HOME</a></li>
+            <li><a class="menu__list-item" href="#">all products </a></li>
+            <li><a class="menu__list-item" href="#"> wordpress</a></li>
+            <li><a class="menu__list-item" href="#">festures </a></li>
+            <li><a class="menu__list-item" href="#"> Pages</a></li>
+          </ul>
+          <div class="search">
+            <form action="">
+              <input type="text" placeholder="Search product here...">
+              <button class="search-btn"></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="about">
+      <div class="container">
+        <div class="about__title">
+          Create Your Own
+          <span class="about__title-span"> Digital Product Marketplace </span>
+        </div>
+        <div class="about__text">
+          MartPlace is the most powerful, & customizable template for Easy
+          Digital
+          Downloads Products
+        </div>
+        <button class="active"><a href="#">View All Products</a></button>
+        <button><a href="#">Popular Products</a></button>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages__inner">
+          <div class="advantages__item">
+            <div class="advantages__item-img">
+              <img src="images/content/adv_1.png" alt="">
+            </div>
+            <div class="advantages__item-title">
+              Best UX Research
+            </div>
+            <div class="advantages__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+              ut
+              scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__item-img">
+              <img src="images/content/adv_1.png" alt="">
+            </div>
+            <div class="advantages__item-title">
+              Fully Responsive
+            </div>
+            <div class="advantages__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+              ut
+              scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__item-img">
+              <img src="images/content/adv_3.png" alt="">
+            </div>
+            <div class="advantages__item-title">
+              Buy & Sell Easily
+            </div>
+            <div class="advantages__item-text">
+              Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo
+              ut
+              scelerisque
+              the mattis, leo quam aliquet diam
+              congue is laoreet elit metus.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="featured">
+      <div class="container">
+        <div class="featured__slider">
+          <div class="featured__slider-title">
+            Weekly Featured Products
+          </div>
+          <div class="slider__arrows"></div>
+        </div>
+        <div class="slider__product">
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume Template
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                  nisi
+                  interdum mollis. Praesent pharetra, justo ut scelerisque the
+                  mattis, leo
+                  quam aliquet congue justo ut scelerisque.
+                </div>
+                <div class="sections">
+                  <a class="sections-item" href="#">website</a>
+                  <a class="sections-item" href="#">plugin</a>
+                  <a class="sections-item" href="#">landing page</a>
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10 - $50
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                  <div class="rate">
+                    5
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume Template
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                  nisi
+                  interdum mollis. Praesent pharetra, justo ut scelerisque the
+                  mattis, leo
+                  quam aliquet congue justo ut scelerisque.
+                </div>
+                <div class="sections">
+                  <a class="sections-item" href="#">website</a>
+                  <a class="sections-item" href="#">plugin</a>
+                  <a class="sections-item" href="#">landing page</a>
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10 - $50
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                  <div class="rate">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newiest">
+      <div class="container">
+        <div class="newiest__mix">
+          <div class="newiest__mix-title">
+            Newest Release Products
+          </div>
+          <div class="newiest__mix-filter">Filter by:</div>
+        </div>
+
+        <div class="filter">
+          <div class="filter__item active">Plugins</div>
+          <div class="filter__item">WordPress</div>
+          <div class="filter__item">Site Template</div>
+          <div class="filter__item">PSD Template</div>
+          <div class="filter__item">Joomla</div>
+          <div class="filter__item">User Interface</div>
+          <div class="filter__item">Landing Page</div>
+          <div class="filter__item">Software</div>
+        </div>
 
 
-						<div class="become_seller">
-							<a href="#">Become a Seller</a>
-						</div>
-						<div class="profile__photo">
-							<a href="#">
-								<img src="images/icons/profile__photo.svg" alt="">
-							</a>
-						</div>
-						<div class="profile">
-							<div class="profile__name">
-								Taofiq Hakim
-							</div>
-							<span> $20.45 </span>
+        <div class="product__filtered">
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
 
-						</div>
-					</div>
-				</div>
-			</div>
-			<nav class="header__menu">
-				<div class="container">
-					<div class="nav__inner">
-						<ul class="menu">
-							<li>
-								<a href="#">
-									HOME
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									all products
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									wordpress
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									festures
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									Pages
-								</a>
-							</li>
-						</ul>
-						<div class="search">
-							<form action="">
-								<input type="text" placeholder="Search product here..." required>
-								<button>
-									<img src="images/icons/search__btn.svg" alt="">
-								</button>
-							</form>
-						</div>
-					</div>
-				</nav>
-			</div>
 
-		</header>
-		<section class="main">
-			<div class="container-fluid">
-				<div class="main__title">
-					<span>Create Your Own</span>
-					Digital Product Marketplace
-				</div>
-				<div class="main__text">
-					MartPlace is the most powerful, & customizable template for Easy Digital
-					Downloads Products
-				</div>
-				<button class="main_btn">View All Products</button>
-				<button class="main_btn">Popular Products</button>
-				<div class="container">
-					<div class="search-box">
-						<form action="">
-							<input type="text" placeholder="Search your products...">
-							<select type="categies">
-								<option value="All">All categories</option>
-								<option value="WP">WordPress </option>
-								<option value="Plugins"> Plugins</option>
-								<option value="PSD">PSD </option>
-								<option value="Joomla">Joomla </option>
-								<option value="Site Template"> Site Template</option>
-								<option value="Landing Page"> Landing Page</option>
-							</select>
-							<button class="search-box-btn">Search Now</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="advantages">
-			<div class="container">
-				<div class="advantages__inner">
-					<div class="advantages__box">
-						<div class="advantages__img"> <img src="images/icons/adv_1.png" alt=""></div>
-						<div class="advantages__title">Best UX Research</div>
-						<div class="advantages__text">Nunc placerat mi id nisi interdum mollis.
-							Praesent pharetra, justo ut scelerisque
-							the mattis, leo quam aliquet diam
-							congue is laoreet elit metus.</div>
-					</div>
-					<div class="advantages__box">
-						<div class="advantages__img"><img src="images/icons/adv_3.png" alt=""></div>
-						<div class="advantages__title">Fully Responsive</div>
-						<div class="advantages__text">Nunc placerat mi id nisi interdum mollis.
-							Praesent pharetra, justo ut scelerisque
-							the mattis, leo quam aliquet diam
-							congue is laoreet elit metus.</div>
-					</div>
-					<div class="advantages__box">
-						<div class="advantages__img"><img src="images/icons/adv_3.png" alt=""></div>
-						<div class="advantages__title">Buy & Sell Easily</div>
-						<div class="advantages__text">Nunc placerat mi id nisi interdum mollis.
-							Praesent pharetra, justo ut scelerisque
-							the mattis, leo quam aliquet diam
-							congue is laoreet elit metus.</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<div class="section-slider">
-			<div class="container">
-				<div class="featured__products-inner">
-					<div class="featured__products">
-						<div class="featured__products-title">
-							Weekly Featured Products
-						</div>
-						<div class="slider__arrows"></div>
-					</div>
-					<div class="slider__products">
-					<div class="products__item">
-						<div class="products__item-img">
-							<img class="item__image" src="images/slider/slider-1.jpg" alt="" >
-						</div>
-						<div class="products__item-description">
-							<div class="products__item-title">
-								One Page Resume Template
-							</div>
-							<div class="products__item-info">
-								<div class="firm__logo" style="background-image:
-									url(images/icons/firm__item-logo1.jpg);"></div>
-								<a class="firm" href="#">AazzTech</a>
-								<div class="firm__name-logo" style="background-image:
-									url(images/icons/WP.png);"></div>
-								<a class="wp" href="#">WordPress</a>
-							</div>
-							<div class="products__item-text">
-								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
-								scelerisque the mattis, leo quam aliquet congue placerat mi id nisi
-								interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
-								quam aliquet congue justo ut scelerisque.
-							</div>
-							<div class="products__sorts">
-								<a href="#">website</a>
-								<a href="#">plugin</a>
-								<a href="#">landing page</a>
-							</div>
-							<div class="footer__card-product">
-								<div class="range__products"><a href="#"></a>$10-$50</a></div>
-								<div class="rate-category">1111111</div>
-							</div>
+                    <div class="rate">
+                    </div>
+                  </div>
+                  <div class="info__footer-right">
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
 
-						</div>
-					</div>
 
-					<div class="products__item">
-						<div class="products__item-img">
-							<img class="item__image" src="images/slider/slider-1.jpg" alt="" >
-						</div>
-						<div class="products__item-description">
-							<div class="products__item-title">
-								One Page Resume Template
-							</div>
-							<div class="products__item-info">
-								<div class="firm__logo" style="background-image:
-									url(images/icons/firm__item-logo1.jpg);"></div>
-								<a class="firm" href="#">AazzTech</a>
-								<div class="firm__name-logo" style="background-image:
-									url(images/icons/WP.png);"></div>
-								<a class="wp" href="#">WordPress</a>
-							</div>
-							<div class="products__item-text">
-								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
-								scelerisque the mattis, leo quam aliquet congue placerat mi id nisi
-								interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
-								quam aliquet congue justo ut scelerisque.
-							</div>
-							<div class="products__sorts">
-								<a href="#">website</a>
-								<a href="#">plugin</a>
-								<a href="#">landing page</a>
-							</div>
-							<div class="footer__card-product">
-								<div class="range__products"><a href="#"></a>$10-$50</a></div>
-								<div class="rate-category">1111111</div>
-							</div>
+                    <div class="rate">
+                    </div>
+                  </div>
+                  <div class="info__footer-right">
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
 
-						</div>
-					</div>
-					<div class="products__item">
-						<div class="products__item-img">
-							<img class="item__image" src="images/slider/slider-1.jpg" alt="" >
-						</div>
-						<div class="products__item-description">
-							<div class="products__item-title">
-								One Page Resume Template
-							</div>
-							<div class="products__item-info">
-								<div class="firm__logo" style="background-image:
-									url(images/icons/firm__item-logo1.jpg);"></div>
-								<a class="firm" href="#">AazzTech</a>
-								<div class="firm__name-logo" style="background-image:
-									url(images/icons/WP.png);"></div>
-								<a class="wp" href="#">WordPress</a>
-							</div>
-							<div class="products__item-text">
-								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
-								scelerisque the mattis, leo quam aliquet congue placerat mi id nisi
-								interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
-								quam aliquet congue justo ut scelerisque.
-							</div>
-							<div class="products__sorts">
-								<a href="#">website</a>
-								<a href="#">plugin</a>
-								<a href="#">landing page</a>
-							</div>
-							<div class="footer__card-product">
-								<div class="range__products"><a href="#"></a>$10-$50</a></div>
-								<div class="rate-category">1111111</div>
-							</div>
 
-						</div>
-					</div>
-					<div class="products__item">
-						<div class="products__item-img">
-							<img class="item__image" src="images/slider/slider-1.jpg" alt="" >
-						</div>
-						<div class="products__item-description">
-							<div class="products__item-title">
-								One Page Resume Template
-							</div>
-							<div class="products__item-info">
-								<div class="firm__logo" style="background-image:
-									url(images/icons/firm__item-logo1.jpg);"></div>
-								<a class="firm" href="#">AazzTech</a>
-								<div class="firm__name-logo" style="background-image:
-									url(images/icons/WP.png);"></div>
-								<a class="wp" href="#">WordPress</a>
-							</div>
-							<div class="products__item-text">
-								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
-								scelerisque the mattis, leo quam aliquet congue placerat mi id nisi
-								interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo
-								quam aliquet congue justo ut scelerisque.
-							</div>
-							<div class="products__sorts">
-								<a href="#">website</a>
-								<a href="#">plugin</a>
-								<a href="#">landing page</a>
-							</div>
-							<div class="footer__card-product">
-								<div class="range__products"><a href="#"></a>$10-$50</a></div>
-								<div class="rate-category">1111111</div>
-							</div>
-						</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<script
-			src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-			
-		<script src="js/libs.min.js"></script>
-		<script src="js/main.js"></script>
-	</body>
-</html>
+                    <div class="rate">
+                    </div>
+                  </div>
+                  <div class="info__footer-right">
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
+
+
+                    <div class="rate">
+                    </div>
+                  </div>
+                  <div class="info__footer-right">
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
+                    <div class="rate">
+                    </div>
+                  </div>
+                  <div class="info__footer-right">
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
+                    <div class="rate">
+                    </div>
+                  </div>
+                  <div class="info__footer-right">
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="product__filtered-btn" href="#">All New Products</a>
+      </div>
+    </section>
+
+    <section class="followers">
+      <div class="container">
+        <div class="followers__slider">
+          <div class="followers__slider-title">
+            Your Followers Feed
+          </div>
+          <div class="slider__arrows"></div>
+        </div>
+        <div class="slider__product-followers">
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
+
+
+                    <div class="rate">
+                    </div>
+                  </div>
+                  <div class="info__footer-right">
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
+                    <div class="rate">
+                    </div>
+                  </div>
+                  <div class="info__footer-right">
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__item-inner">
+              <img class='product__item-img' src="images/content/item1.jpg"
+                alt="">
+              <div class="product__item-info">
+                <div class="info__title">
+                  One Page Resume
+                </div>
+                <div class="info__blocks">
+                  <span><a class="info__blocks-left" href="#">AazzTech</a>
+                  </span>
+                  <span><a class="info__blocks-right" href="#">WordPress</a>
+                  </span>
+                </div>
+                <div class="info__text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                  justo ut
+                  scelerisque the mattis, leo quam aliquet congue placerat mi id
+                </div>
+                <div class="info__footer">
+                  <div class="info__footer-left">
+                    <div class="info-price">
+                      $10
+                    </div>
+                    <div class="info-likes">
+                      46
+                    </div>
+                    <div class="rate">
+                    </div>
+                  </div>
+                  <div class="info__footer-right">
+                    <div class="info__bought">
+                      634
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="statistic">
+        <div class="container">
+          <div class="statistic__inner">
+            <div class="statistic__box">
+              <div class="statistic__box-num bag">38,436 </div>
+              <div class="statistic__box-text">items for sale</div>
+            </div>
+            <div class="statistic__box">
+              <div class="statistic__box-num cloud">3,736</div>
+              <div class="statistic__box-text"> total sales</div>
+            </div>
+            <div class="statistic__box">
+              <div class="statistic__box-num smile">2,736</div>
+              <div class="statistic__box-text">happy customers </div>
+            </div>
+            <div class="statistic__box">
+              <div class="statistic__box-num people">25,736</div>
+              <div class="statistic__box-text">members</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <div class="advantages__head">
+            <div class="advantages__head-title">
+              Why Choose <span> MartPlace</span>
+            </div>
+            <div class="advantages__head-text">
+              Laborum dolo rumes fugats untras. Etharums ser quidem rerum
+              facilis
+              dolores nemis omnis fugats. Lid est laborum dolo rumes fugats
+              untras.
+            </div>
+          </div>
+          <div class="advantages__inner">
+            <div class="advantages__card">
+              <div class="advantages__card-num"> 01</div>
+              <div class="advantages__card-title license"> One Time Payment</div>
+              <div class="advantages__card-text">Nunc placerat mi id nisi
+                interdum
+                mollis. Praesent pharetra, justo ut scelerisque
+                the mattis, leo quam aliquet diam
+                congue is laoreet elit metus.</div>
+            </div>
+            <div class="advantages__card">
+              <div class="advantages__card-num wand"> 02</div>
+              <div class="advantages__card-title"> Quality Products</div>
+              <div class="advantages__card-text">Nunc placerat mi id nisi
+                interdum
+                mollis. Praesent pharetra, justo ut scelerisque
+                the mattis, leo quam aliquet diam
+                congue is laoreet elit metus.</div>
+            </div>
+            <div class="advantages__card">
+              <div class="advantages__card-num"> 03</div>
+              <div class="advantages__card-title secure"> 100% Secure Payment</div>
+              <div class="advantages__card-text">Nunc placerat mi id nisi
+                interdum
+                mollis. Praesent pharetra, justo ut scelerisque
+                the mattis, leo quam aliquet diam
+                congue is laoreet elit metus.</div>
+            </div>
+            <div class="advantages__card">
+              <div class="advantages__card-num"> 04</div>
+              <div class="advantages__card-title chart"> Well Organized Code</div>
+              <div class="advantages__card-text">Nunc placerat mi id nisi
+                interdum
+                mollis. Praesent pharetra, justo ut scelerisque
+                the mattis, leo quam aliquet diam
+                congue is laoreet elit metus.</div>
+            </div>
+            <div class="advantages__card">
+              <div class="advantages__card-num"> 05</div>
+              <div class="advantages__card-title leaf"> Life Time Free Update</div>
+              <div class="advantages__card-text">Nunc placerat mi id nisi
+                interdum
+                mollis. Praesent pharetra, justo ut scelerisque
+                the mattis, leo quam aliquet diam
+                congue is laoreet elit metus.</div>
+            </div>
+            <div class="advantages__card">
+              <div class="advantages__card-num"> 06</div>
+              <div class="advantages__card-title phone"> Fast and Friendly
+                Support</div>
+              <div class="advantages__card-text">Nunc placerat mi id nisi
+                interdum
+                mollis. Praesent pharetra, justo ut scelerisque
+                the mattis, leo quam aliquet diam
+                congue is laoreet elit metus.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="possibilities">
+        <div class="possibilities__inner">
+          <div class="possibilities__sell">
+            <div class="possibilities__container">
+              <div class="possibilities__sell-img"><img
+                  src="images/icons/Icon_sell.svg" alt=""></div>
+              <div class="possibilities__sell-title title"> Sell Your Products</div>
+              <div class="possibilities__sell-text">Nunc placerat mi id nisi
+                interdum mollis. Praesent pharetra, justo ut scelerisque
+                the mattis, leo quam aliquet diamcongue is laoreet elit metus.</div>
+              <button><a href="#">Become an Author</a></button>
+            </div>
+          </div>
+          <div class="possibilities__buy">
+            <div class="possibilities__container">
+              <div class="possibilities__buy-img"><img
+                  src="images/icons/Icon.svg" alt=""></div>
+              <div class="possibilities__buy-title title">Start Shopping Today</div>
+              <div class="possibilities__buy-text">Nunc placerat mi id nisi
+                interdum mollis. Praesent pharetra, justo ut scelerisque
+                the mattis, leo quam aliquet diamcongue is laoreet elit metus.</div>
+              <button><a class="shop-link" href="#">Start Shopping</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="container">
+          <div class="feedback__title title"> Our Clients <span>Feedback</span>
+          </div>
+          <div class="feedback__text">Laborum dolo rumes fugats untras. Etharums
+            ser quidem rerum facilis dolores nemis omnis fugats. Lid est laborum
+            dolo rumes fugats untras.</div>
+          <div class="feedback__inner">
+            <div class="feedback__item">
+              <div class="head__container">
+                <div class="feedback__item-img" style="background-image:
+                  url(images/icons/feedback__icon.png);"></div>
+                <div class="feedback__item-info">
+                  <div class="info-name"> Taofiqul Hakim</div>
+                  <div class="info-profession">Product Designer</div>
+                </div>
+              </div>
+              <div class="feedback__review">Nunc placerat mi id nisi interdum
+                mollis. Praesent pharetra, justo ut scelerisque the mattis,
+                leo quam aliquet diam congue is the laoreet elit metus. Nunc
+                placerat mi is id nisi interdum is mollis. Praesent the
+                pharetra, justo ut scelerisque.</div>
+            </div>
+            <div class="feedback__item">
+              <div class="head__container">
+                <div class="feedback__item-img" style="background-image:
+                  url(images/icons/feedback__icon.png);"></div>
+                <div class="feedback__item-info">
+                  <div class="info-name"> Saifullah Al Murtafee</div>
+                  <div class="info-profession">Product Designer</div>
+                </div>
+              </div>
+              <div class="feedback__review">Nunc placerat mi id nisi interdum
+                mollis. Praesent pharetra, justo ut scelerisque the mattis,
+                leo quam aliquet diam congue is the laoreet elit metus. Nunc
+                placerat mi is id nisi interdum is mollis. Praesent the
+                pharetra, justo ut scelerisque.</div>
+            </div>
+          </div>
+          <button><a class="feddback__link" href="#">View All Reviews</a></button>
+        </div>
+      </div>
+    </section>
+    <section class="news">
+      <div class="container">
+        <div class="news__title title"> Latest <span>News</span>
+        </div>
+        <div class="news__text">Laborum dolo rumes fugats untras. Etharums
+          ser quidem rerum facilis dolores nemis omnis fugats. Lid est laborum
+          dolo rumes fugats untras.</div>
+      </div>
+      <div class="news__products-inner">
+        <div class="news__products">
+          <div class="news__products-img" style="background-image:
+            url('images/content/news-item.jpg');"></div>
+          <div class="news__products-container">
+            <div class="news__products-title">Web Design Trends in 2017</div>
+            <div class="news__products-text">Nunc placerat mi id nisi interdum
+              mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet congue.</div>
+            <div class="news__products-footer">
+              <div class="news__products-date">24 Feb 2017</div>
+              <div class="news__products-info">
+                <span class="info-message">45</span>
+                <span class="info-see">345</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news__products">
+          <div class="news__products-img" style="background-image:
+            url('images/content/news-item.jpg');"></div>
+          <div class="news__products-container">
+            <div class="news__products-title">Web Design Trends in 2017</div>
+            <div class="news__products-text">Nunc placerat mi id nisi interdum
+              mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet congue.</div>
+            <div class="news__products-footer">
+              <div class="news__products-date">24 Feb 2017</div>
+              <div class="news__products-info">
+                <span class="info-message">45</span>
+                <span class="info-see">345</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news__products">
+          <div class="news__products-img" style="background-image:
+            url('images/content/news-item.jpg');"></div>
+          <div class="news__products-container">
+            <div class="news__products-title">Web Design Trends in 2017</div>
+            <div class="news__products-text">Nunc placerat mi id nisi interdum
+              mollis. Praesent pharetra, justo ut scelerisque
+              the mattis, leo quam aliquet congue.</div>
+            <div class="news__products-footer">
+              <div class="news__products-date">24 Feb 2017</div>
+              <div class="news__products-info">
+                <span class="info-message">45</span>
+                <span class="info-see">345</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="guarantee">
+        <div class="guarantee__inner">
+          <div class="guarantee__box guarantee">
+            <div class="guarantee-img"><img src="images/icons/guarantee1.jpg"
+                alt=""></div>
+            <div class="guarantee-text">30 Days Money Back <span>Guarantee</span>
+            </div>
+          </div>
+          <div class="guarantee__box support">
+            <div class="guarantee-img"><img src="images/icons/guarantee2.jpg"
+                alt=""></div>
+            <div class="guarantee-text">Fast and Friendly <span>Support</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="join">
+        <div class="container">
+          <div class="join__inner">
+            <div class="join__title title">Ready to Join Our Marketplace!</div>
+            <div class="join__text">Over 25,000 designers and developers trust
+              the
+              MartPlace.</div>
+            <button><a href="#">Join Us Today</a></button>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__menu">
+            <div class="footer__info">
+              <div class="footer__info-logo"><a href="#"><img
+                    src="images/icons/Logo__footer.png" alt=""></a> <span>Mart</span>
+                <span class="footer__logo-name">Place </span></div>
+              <div class="footer__info-text">
+                Nunc placerat mi id nisi interdum they mollis. Praesent
+                pharetra, justo ut scel erisque the mattis, leo quam.
+              </div>
+              <div class="footer__info-phone"> <a href="tel:67898752235">Phone:+6789-875-2235
+                </a></div>
+              <div class="footer__info-mail">support@aazztech.com</div>
+              <div class="footer__info-address">202 New Hampshire Avenue
+                Northwest #100, New York-2573
+              </div>
+            </div>
+            <div class="footer__company">
+              <div class="footer__company-title">Our Company</div>
+              <ul class="footer__company-list">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">How It Work</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Copyright Notice</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="footer__help">
+              <div class="footer__help-title">Help Support</div>
+              <ul class="footer__help-list">
+                <li><a class="footer__list-item" href="#">Support Forum</a></li>
+                <li><a class="footer__list-item" href="#">Terms & Conditions</a></li>
+                <li><a class="footer__list-item" href="#">Support Policy</a></li>
+                <li><a class="footer__list-item" href="#">Refund Policy</a></li>
+                <li><a class="footer__list-item" href="#">FAQs</a></li>
+                <li><a class="footer__list-item" href="#">Buyers Faq</a></li>
+                <li><a class="footer__list-item" href="#">Sellers Faq</a></li>
+              </ul>
+            </div>
+            <div class="footer__newsletter">
+              <div class="footer__newsletter-title">Newsletter</div>
+              <div class="footer__newsletter-text">
+                Subscribe to get the latest news, update and offer information.
+                Don't worry, we won't send spam!
+              </div>
+              <form action="">
+                <input type="text" placeholder="Enter email" required>
+                <button type="submit">Submit </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <div class="footer__copy-text">©2017 <span class="footer-copy">MartPlace</span>
+            . All rights reserved.
+            Created by <span class="footer-copy">AazzTech</span> </div>
+        </div>
+      </footer>
+      <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="js/libs.min.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+  </html>

@@ -24,6 +24,7 @@
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
-    "magnific-popup": "^1.1.0"
+    "magnific-popup": "^1.1.0",
+    "rateyo": "^2.3.2"
   }
 }
